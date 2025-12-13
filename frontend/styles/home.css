@@ -1,0 +1,170 @@
+.home-root {
+  background: #0b0c0f;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* HERO */
+.home-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url('/images/hero-bg.jpg') center/cover no-repeat;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero-sub {
+  margin-top: 12px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.hero-right {
+  text-align: center;
+}
+
+.hero-avatar {
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.hero-cta-box {
+  background: #e23b3b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cta-label {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.cta-timer {
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.cta-btn {
+  background: #fff;
+  color: #000;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* SCHEDULE */
+.schedule-banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('/images/schedule-banner.jpg') center/cover no-repeat;
+}
+
+.schedule-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.schedule-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.schedule-col h3 {
+  font-size: 22px;
+}
+
+/* TRAITS */
+.traits-section {
+  padding: 80px 40px;
+}
+
+.traits-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.traits-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.trait-card {
+  background: #111;
+  border: 1px solid #e23b3b;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.trait-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trait-label {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* TOP RIGHT CONTROLS */
+.topright-controls {
+  display: flex;
+  gap: 14px;
+}
+
+.top-btn {
+  background: #1a1a1a;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.top-btn.red {
+  background: #e23b3b;
+}
+
+/* MODAL */
+.carousel-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-box {
+  background: #181818;
+  padding: 20px;
+  width: 420px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.carousel-close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  background: none;
+  color: white;
+  font-size: 20px;
+}
+
+.carousel-slide img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
