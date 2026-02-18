@@ -1,4 +1,6 @@
-#!/Users/obanapujar/Developer/CODERED/Backend/venv/bin/python3
+#!/bin/sh
+'''exec' "/Users/obanapujar/Developer/CODERED 2/Backend/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
